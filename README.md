@@ -1,7 +1,7 @@
 This repository contains code used for the analysis of the single-cell data from the manuscript  
 **"Emergence of limb movement requires multifold increase in spinal inhibitory cell types."**  
 
-Here, **I focus on identifying spinal neural types across _Xenopus_ metamorphosis**.  
+Here, I focus on identifying spinal neural types across _Xenopus_ metamorphosis.  
 The code is designed to accompany the data from the manuscript and enables reproducibility of key downstream processing steps — including ambient RNA removal, quality filtering, label transfer, and figure generation — rather than serving as a full raw-to-clusters preprocessing pipeline.
 
 
