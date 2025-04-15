@@ -5,7 +5,7 @@ Here, **I focus on identifying spinal neural types across _Xenopus_ metamorphosi
 The code is designed to accompany the data from the manuscript and enables reproducibility of key downstream processing steps — including ambient RNA removal, quality filtering, label transfer, and figure generation — rather than serving as a full raw-to-clusters preprocessing pipeline.
 
 
-## Overview
+# Overview
 
 Four NF stages of _X.laevis_ metamorphosis were analyzed: 38, 47, 54, and 57. The pipeline includes:
 
@@ -15,7 +15,7 @@ Four NF stages of _X.laevis_ metamorphosis were analyzed: 38, 47, 54, and 57. Th
 4. **Label transfer**: on a coarse and neuronal level using previously assigned annotations  
 5. **Visualization** of UMAPs, dot plots, and neural type proportions 
 
-## Scripts
+# Scripts
 
 - `cellbender.sh`: runs CellBender  on `.h5` raw matrix outputs from cellranger count
 - `convert_cellbender_h5_to_seurat.R`: loads CellBender `.h5` output and converts it to a Seurat object
