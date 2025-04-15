@@ -25,11 +25,11 @@ module load cuda
 module load miniforge3/24.7.1
 conda activate cellbender2
 
-# Set paths for raw input from CellRanger count and your output
+# set paths for raw input from CellRanger count and your output
 RAW_INPUT="/path/to/your/sample/raw_feature_bc_matrix.h5"
 OUTPUT="/path/to/output/output_sample"
 
-# Run CellBender with multiple FPRs (adjust as needed)
+# run CellBender (here multiple fpr's are used, adjust as needed. In the end, outputs from fpr = 0.01 were used for further downstream)
 cellbender remove-background \
     --input "$RAW_INPUT" \
     --output "$OUTPUT" \
