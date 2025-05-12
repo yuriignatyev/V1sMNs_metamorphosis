@@ -90,4 +90,3 @@ ggplot(df_class, aes(x = stage, y = prop, fill = class)) +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-# Done. This script visualizes major cluster identities and proportions across time.
